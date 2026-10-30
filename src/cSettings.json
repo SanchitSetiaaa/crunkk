@@ -110,6 +110,14 @@
 		"category": "Game",
 		"defaultValue": true
 	},
+	"keyOverlay": {
+		"name": "Keystroke Overlay",
+		"id": "keyOverlay",
+		"description": "Shows an on-screen overlay of W, A, S, D, Shift, Space and mouse buttons as you press them",
+		"type": "checkbox",
+		"category": "Game",
+		"defaultValue": true
+	},
 	"autoSpec": {
 		"name": "Auto Spectate",
 		"id": "autoSpec",

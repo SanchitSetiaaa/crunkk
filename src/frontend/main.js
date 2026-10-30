@@ -117,6 +117,7 @@ Object.defineProperty(window, "gameLoaded", {
 		if (window.glorp?.settings?.data?.realPing) import("./modules/realPing.js");
 		if (window.glorp?.settings?.data?.exitButton) document.querySelector("#clientExit").style.display = "flex";
 		if (window.glorp?.settings?.data?.renderStats) import("./modules/renderFps.js");
+		if (window.glorp?.settings?.data?.keyOverlay) import("./modules/keyOverlay.js");
 
 		if (window.glorp?.settings?.data?.rampBoost && !window.checkCompMode()) {
 			window.chrome.webview.postMessage("toggle-rboost, true");
